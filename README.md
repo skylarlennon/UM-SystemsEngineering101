@@ -35,6 +35,8 @@ A short, hands-on mini-course for Michigan engineers. Learn the Systems Engineer
 
 
 **Systems Engineering Overview**
+![SystemsEngineeringV](/media/SystemsEngineeringV.png)
+
 - Give description and motivation for systems engineering
 
 
