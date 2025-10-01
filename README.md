@@ -1,6 +1,7 @@
 # UM-SystemsEngineering101
 
-A short, hands-on mini-course for Michigan engineers. Learn the Systems Engineering “V” by doing. Each part contains bite-size tutorials and a lab built around two anchor case studies:
+## Intro
+A short, hands-on mini-course for Michigan's student team engineers. Learn the Systems Engineering “V” through relevant case studies of U-M teams. Each part contains bite-size tutorials and a lab built around two anchor case studies:
 
 - **Case Study A:** Supermileage 
 - **Case Study B:** Solar Car 
@@ -8,6 +9,14 @@ A short, hands-on mini-course for Michigan engineers. Learn the Systems Engineer
 ## Who this is for
 - New members of Wilson Center teams, particularly those who build passenger vehicles (Supermileage, Solar Car, MRacing, Baja, etc.)
 - Anyone who wants a repeatable Systems Engineering (SE) workflow from Requirements (reqs) → Validation & Verification (V&V)
+
+## What is Systems Engineering
+- [TODO] - Short desc.
+
+## Why Systems Engineering Matters
+- How complex multidisciplinary projects are done 
+- Example of NASA rocket that failed, other fails
+- Brifly explain how important it is to keep all your ducks in a row and make sure you missed nothing (competition rules, govt regulations, etc.)
 
 ## How to use this repo
 1. Read through the **Systems Engineering Overview**
@@ -22,25 +31,39 @@ A short, hands-on mini-course for Michigan engineers. Learn the Systems Engineer
 - [**Part 4 — Testing & Validation**](4_Testing_&_Validation/README4.md)
 - [**Part 5 — Deployment, Operations & Life Cycle**](5_Deployment_Ops_Life_Cycle/README5.md)
 
-> Tip: Each part is ~60–90 minutes of guided work. Labs are designed to run from this repo with MATLAB/Simulink. See **Setup** below.
-
 ## Setup
 - [Install](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html) MATLAB R2023b+ with Simulink 
 - Include the following toolboxes:
     - 
+- Include VS Code & Git tutorial - EECS 280
 
 - Clone and in MATLAB run:
   ```matlab
   addpath(genpath(pwd));  % add repo to path
 
+- Open VS Code
+
 
 **Systems Engineering Overview**
 ![SystemsEngineeringV](/media/SystemsEngineeringV.png)
 
-- Give description and motivation for systems engineering
+- High level systems enginee3ring desc
 
+- 1-2 sentences on Concept & Requirements
+- [**Part 1 — Concept & Requirements**](1_Concept_&_Requirements/README1.md)
 
-Insert SE “V” diagram here; highlight the “Concept/Requirements → Architectural Definition → Functional Decomposition” region on the left side of the V, and connect to Verification/Validation on the right side for traceability later. 
+- 1-2 sentences on Functional Decomposition
+- [**Part 2 — Functional Decomposition**](2_Decomposition/README2.md)
+
+- 1-2 Sentences on System Design & Implementation
+- [**Part 3 — System Design & Implementation**](3_System_Design_&_Implementation/README3.md)
+
+- 1-2 sentences on testing & validtaion 
+- [**Part 4 — Testing & Validation**](4_Testing_&_Validation/README4.md)
+
+- 1-2 sentences on devops/life cycle
+- [**Part 5 — Deployment, Operations & Life Cycle**](5_Deployment_Ops_Life_Cycle/README5.md)
+
 
 TODO:
 - make sure that ppl can ask to contribute to the project, but can't just change things
